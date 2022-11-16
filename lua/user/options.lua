@@ -1,7 +1,7 @@
 -- Set options for Neovim
 -- :help options
 
--- Shorten function call
+-- Shorten function call for setting options
 local o = vim.opt
 
 -- help Q_op

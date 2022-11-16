@@ -7,3 +7,4 @@ require 'user.plugins'
 
 -- plugin modules
 require 'user.comment'
+require 'user.nvim-tree'

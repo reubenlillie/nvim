@@ -41,6 +41,8 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- Call plugins below this line
   use 'numToStr/Comment.nvim'
+  use 'nvim-tree/nvim-tree.lua'
+  use 'nvim-tree/nvim-web-devicons'
   -- Call plugins above this line
   if packer_bootstrap then
     require('packer').sync()
