@@ -1,20 +1,22 @@
--- Set options for Nvim
+-- Set options for Neovim
 -- :help options
-local o = vim.opt  -- shorten function call
+
+-- Shorten function call
+local o = vim.opt
 
 -- help Q_op
 o.ai = true        -- take indent for new line from previous line
 o.bk = false       -- keep backup file after overwriting a file
-o.cc = "80"        -- columns to highlight
+o.cc = '80'        -- columns to highlight
 o.cole = 0         -- whether concealable text is shown or hidden
 o.cul = true       -- highlight the screen line of the cursor
-o.culopt = "both"  -- settings for 'cursorline'
+o.culopt = 'both'  -- settings for 'cursorline'
 o.et = true        -- use spaces when <Tab> is inserted
-o.fdm = "indent"   -- folding type
+o.fdm = 'indent'   -- folding type
 o.fdn = 6          -- maximum fold depth
 o.hls = true       -- highlight matches with last search pattern
 o.ic = true        -- ignore case in search patterns
-o.isk:append("-")  -- characters included in keywords
+o.isk:append('-')  -- characters included in keywords
 o.lbr = true       -- wrap long lines at a blank
 o.list = true      -- show <Tab> and <EOL>
 o.nu = true        -- print the line number in front of each line
