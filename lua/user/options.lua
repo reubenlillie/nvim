@@ -11,6 +11,7 @@ o.cc = '80'        -- columns to highlight
 o.cole = 0         -- whether concealable text is shown or hidden
 o.cul = true       -- highlight the screen line of the cursor
 o.culopt = 'both'  -- settings for 'cursorline'
+o.enc = 'utf-8'    -- encoding used internally
 o.et = true        -- use spaces when <Tab> is inserted
 o.fdm = 'indent'   -- folding type
 o.fdn = 6          -- maximum fold depth
