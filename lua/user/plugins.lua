@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
   use 'numToStr/Comment.nvim'
   use 'nvim-tree/nvim-tree.lua'
   use 'nvim-tree/nvim-web-devicons'
+  use 'reubenlillie/mine-shaft'
   -- Call plugins above this line
   if packer_bootstrap then
     require('packer').sync()

@@ -4,7 +4,8 @@ require 'user.options'
 require 'user.keymaps'
 require 'user.autocmd'
 require 'user.plugins'
+require 'user.colorscheme'
 
--- plugin modules
+-- plugin module configurations
 require 'user.comment'
 require 'user.nvim-tree'
