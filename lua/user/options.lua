@@ -36,5 +36,4 @@ o.sw = 2           -- number of spaces to use for (auto)indent step
 o.swf = false      -- whether to use a swapfile for a buffer
 o.tgc = true       -- use GUI colors for the terminal
 o.ts = 2           -- number of spaces that <Tab> in file uses
-o.udf = true       -- save undo information in a file
 o.wmnu = true      -- use menu for command line completion
