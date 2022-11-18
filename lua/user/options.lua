@@ -20,6 +20,7 @@ o.ic = true        -- ignore case in search patterns
 o.isk:append('-')  -- characters included in keywords
 o.lbr = true       -- wrap long lines at a blank
 o.list = true      -- show <Tab> and <EOL>
+o.mouse = ''       -- enable the use of mouse clicks
 o.nu = true        -- print the line number in front of each line
 o.nuw = 4          -- number of columns used for the line number
 o.rnu = true       -- show relative line number in front of each line
