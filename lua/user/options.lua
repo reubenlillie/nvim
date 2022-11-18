@@ -30,7 +30,6 @@ o.scs = true       -- no ignore case when pattern has uppercase
 o.si = true        -- smart autoindenting for C programs
 o.sm = true        -- briefly jump to matching bracket if insert one
 o.smd = true       -- message on status line to show current mode
-o.spell = true     -- enable spell checking
 o.sta = true       -- use 'shiftwidth' when inserting <Tab>
 o.sts = 2          -- number of spaces that <Tab> uses while editing
 o.sw = 2           -- number of spaces to use for (auto)indent step
