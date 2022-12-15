@@ -4,7 +4,7 @@
 -- Shorten function call for setting options
 local o = vim.opt
 
--- help Q_op
+-- :help Q_op
 o.ai = true        -- take indent for new line from previous line
 o.bk = false       -- keep backup file after overwriting a file
 o.cc = '80'        -- columns to highlight
